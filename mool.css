@@ -1,0 +1,55 @@
+h1 {
+    font-size: 50px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+input {
+    font-size: 15px;
+    width: 170px;
+}
+
+.container {
+    margin-top: 5%;
+}
+
+button {
+    width: 100px;
+}
+
+#hydrate, #progressReport {
+    font-size: 2px;
+}
+
+#hydrated {
+    font-size: 1.8px;
+    display: none;
+}
+
+#progressReport {
+    display: none;
+}
+
+p, #hydrate, #hydrated, input {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+/* 
+Not sure if I like the text-pulsating animation, so will comment it out for now
+.pulsate {
+    animation: pulsate 1s ease-out;
+    animation-iteration-count: infinite;
+    opacity: 0.5;
+}
+@keyframes pulsate {
+    0% { 
+        opacity: 0.5;
+    }
+    50% { 
+        opacity: 1.0;
+    }
+    100% { 
+        opacity: 0.5;
+    }
+}
+*/
+
